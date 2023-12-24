@@ -1,7 +1,6 @@
 ![Alt text](images/example.png)
 
 ### Newton Fractal Generator 
-You can try it online here.
 
 ##### Example roots collections
 `(1,0); (-0.5,0.86602); (-0.5,-0.86602)`

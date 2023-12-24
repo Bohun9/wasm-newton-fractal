@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hello wasm-pack!</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <noscript>This page contains webassembly and javascript content, please enable javascript in your browser.</noscript>
+    <div id="container">
+        <canvas id="fractal-canvas"></canvas>
+        <div id="control-panel">
+            <h1>Newton Fractal Generator</h1>
+            <div id="roots-box">
+                Roots: 
+                <input type="text" id="roots">
+            </div>
+            <div id="polynomial-box"></div>
+            <div id="render-box">
+                <button id="render-btn">Render</button>
+            </div>
+        </div>
+    </div>
+    <script src="./bootstrap.js"></script>
+  </body>
+</html>

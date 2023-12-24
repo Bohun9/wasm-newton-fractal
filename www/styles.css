@@ -1,0 +1,11 @@
+#container {
+    display: flex;
+}
+
+#control-panel, #roots-box, #polynomial-box, #render-box {
+    padding: 5px;
+}
+
+#roots {
+    width: 400px;
+}
